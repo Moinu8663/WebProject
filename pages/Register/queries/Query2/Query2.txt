@@ -1,0 +1,9 @@
+CREATE TABLE employees (
+    Mobile_no NVARCHAR(50) PRIMARY KEY,
+    First_name NVARCHAR(50),
+    Last_name NVARCHAR(50),
+    Email NVARCHAR(100) UNIQUE,
+    Address NVARCHAR(50),
+	Password NVARCHAR(50),
+	Con_password NVARCHAR(50)
+);

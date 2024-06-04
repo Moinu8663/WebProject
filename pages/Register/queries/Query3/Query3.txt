@@ -1,0 +1,10 @@
+CREATE TABLE public.User (
+    mobileno VARCHAR(50) PRIMARY KEY,
+    first_name VARCHAR(50),
+    last_name VARCHAR(50),
+    email VARCHAR(100) UNIQUE,
+		adress VARCHAR(50),
+		password VARCHAR(50),
+		con_password VARCHAR(50)
+
+);
