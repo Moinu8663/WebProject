@@ -18,7 +18,7 @@
       "timeoutInMillisecond": 10000,
       "paginationType": "NONE",
       "encodeParamsToggle": true,
-      "body": "CREATE TABLE public.User (\n    mobileno VARCHAR(50) PRIMARY KEY,\n    first_name VARCHAR(50),\n    last_name VARCHAR(50),\n    email VARCHAR(100) UNIQUE,\n\t\tadress VARCHAR(50),\n\t\tpassword VARCHAR(50),\n\t\tcon_password VARCHAR(50)\n\n);",
+      "body": "\nSELECT * FROM public.user",
       "selfReferencingDataPaths": [],
       "pluginSpecifiedTemplates": [
         {

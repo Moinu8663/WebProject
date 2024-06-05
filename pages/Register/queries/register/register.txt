@@ -1,1 +1,1 @@
-INSERT INTO public.User (mobileno, first_name, last_name, email, adress, password, con_password) VALUES({{Input3.text}},{{Input1.text}},{{Input2.text}},{{Input4.text}},{{Input5.text}},{{Input6.text}});
+INSERT INTO public.User (mobileno, first_name, last_name, email, adress, password, con_password) VALUES('{{Input3.text}}','{{Input1.text}}','{{Input2.text}}','{{Input4.text}}','{{Input7.text}}','{{Input5.text}}','{{Input6.text}}');
