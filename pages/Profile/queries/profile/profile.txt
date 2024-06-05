@@ -1,0 +1,1 @@
+SELECT * FROM public.User WHERE mobileno = {{appsmith.store.UserProfile}};

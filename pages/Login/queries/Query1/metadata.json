@@ -2,7 +2,7 @@
   "pluginType": "DB",
   "pluginId": "postgres-plugin",
   "unpublishedAction": {
-    "name": "login",
+    "name": "Query1",
     "datasource": {
       "name": "Moinu_DB",
       "pluginId": "postgres-plugin",
@@ -15,10 +15,9 @@
     },
     "pageId": "Login",
     "actionConfiguration": {
-      "timeoutInMillisecond": 10000,
       "paginationType": "NONE",
       "encodeParamsToggle": true,
-      "body": "SELECT * FROM public.User \nWHERE mobileno = '{{Input1.text}}' \n AND password = '{{Input2.text}}';\n",
+      "body": "SELECT * FROM public.\"employees\" LIMIT 10;",
       "selfReferencingDataPaths": [],
       "pluginSpecifiedTemplates": [
         {
@@ -26,26 +25,18 @@
         }
       ]
     },
-    "executeOnLoad": true,
-    "dynamicBindingPathList": [
-      {
-        "key": "body"
-      }
-    ],
+    "executeOnLoad": false,
     "isValid": true,
     "invalids": [],
     "messages": [],
-    "jsonPathKeys": [
-      "Input1.text",
-      "Input2.text"
-    ],
+    "jsonPathKeys": [],
     "userSetOnLoad": false,
     "confirmBeforeExecute": false,
     "policies": [],
     "userPermissions": [],
-    "createdAt": "2024-06-05T05:04:36Z"
+    "createdAt": "2024-06-05T06:24:28Z"
   },
-  "id": "Login_login",
+  "id": "Login_Query1",
   "deleted": false,
-  "gitSyncId": "665d91c36f04917e23b5f058_a2a0ba82-e208-4d95-b147-88394cf26f48"
+  "gitSyncId": "665d91c36f04917e23b5f058_a634048e-b66a-40cf-a5c7-bf789bb4c256"
 }
