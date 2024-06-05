@@ -2,7 +2,7 @@
   "pluginType": "DB",
   "pluginId": "postgres-plugin",
   "unpublishedAction": {
-    "name": "Query4",
+    "name": "register",
     "datasource": {
       "name": "Moinu_DB",
       "pluginId": "postgres-plugin",
@@ -18,7 +18,7 @@
       "timeoutInMillisecond": 10000,
       "paginationType": "NONE",
       "encodeParamsToggle": true,
-      "body": "INSERT INTO public.User (mobileno, first_name, last_name, email, adress, password, con_password) VALUES({{}})",
+      "body": "INSERT INTO public.User (mobileno, first_name, last_name, email, adress, password, con_password) VALUES({{Input3.text}},{{Input1.text}},{{Input2.text}},{{Input4.text}},{{Input5.text}},{{Input6.text}});",
       "selfReferencingDataPaths": [],
       "pluginSpecifiedTemplates": [
         {
@@ -36,7 +36,12 @@
     "invalids": [],
     "messages": [],
     "jsonPathKeys": [
-      ""
+      "Input1.text",
+      "Input2.text",
+      "Input3.text",
+      "Input4.text",
+      "Input5.text",
+      "Input6.text"
     ],
     "userSetOnLoad": false,
     "confirmBeforeExecute": false,
@@ -44,7 +49,7 @@
     "userPermissions": [],
     "createdAt": "2024-06-04T12:56:38Z"
   },
-  "id": "Register_Query4",
+  "id": "Register_register",
   "deleted": false,
   "gitSyncId": "665d91c36f04917e23b5f058_3efe2620-15c9-4f92-b60c-1ca0abc237b2"
 }

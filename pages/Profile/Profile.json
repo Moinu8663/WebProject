@@ -1,35 +1,33 @@
 {
   "unpublishedPage": {
-    "name": "Register",
-    "slug": "register",
+    "name": "Profile",
+    "slug": "profile",
     "layouts": [
       {
         "viewMode": false,
         "dsl": {
           "widgetName": "MainContainer",
           "backgroundColor": "none",
-          "rightColumn": 4896,
+          "rightColumn": 1224,
           "snapColumns": 64,
           "detachFromLayout": true,
           "widgetId": "0",
           "topRow": 0,
-          "bottomRow": 590,
+          "bottomRow": 480,
           "containerStyle": "none",
-          "snapRows": 124,
+          "snapRows": 47,
           "parentRowSpace": 1,
           "type": "CANVAS_WIDGET",
           "canExtend": true,
           "version": 89,
-          "minHeight": 1292,
-          "dynamicTriggerPathList": [],
+          "minHeight": 490,
           "parentColumnSpace": 1,
           "dynamicBindingPathList": [],
           "leftColumn": 0
         },
         "layoutOnLoadActions": [],
-        "layoutOnLoadActionErrors": [],
         "validOnPageLoadActions": true,
-        "id": "Register",
+        "id": "Profile",
         "deleted": false,
         "policies": [],
         "userPermissions": []
@@ -40,5 +38,5 @@
     "isHidden": false
   },
   "deleted": false,
-  "gitSyncId": "665d91c36f04917e23b5f058_5148edd9-ddf2-4844-9197-10f8a7104db7"
+  "gitSyncId": "665d91c36f04917e23b5f058_c1565a33-6825-4317-a8c2-71601a4ea768"
 }
