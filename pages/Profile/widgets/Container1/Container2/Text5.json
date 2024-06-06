@@ -4,13 +4,13 @@
     "widgetName": "Text5",
     "iconSVG": "/static/media/icon.a55b701a2ae86aa2c6718ecb7b4083f0.svg",
     "displayName": "Text",
-    "topRow": 21,
+    "topRow": 12,
     "searchTags": [
         "typography",
         "paragraph",
         "label"
     ],
-    "bottomRow": 25,
+    "bottomRow": 16,
     "parentRowSpace": 10,
     "type": "TEXT_WIDGET",
     "hideCard": false,
@@ -18,9 +18,9 @@
     "animateLoading": true,
     "overflow": "NONE",
     "fontFamily": "{{appsmith.theme.fontFamily.appFont}}",
-    "parentColumnSpace": 3.654296875,
+    "parentColumnSpace": 5.77667236328125,
     "dynamicTriggerPathList": [],
-    "leftColumn": 14,
+    "leftColumn": 0,
     "dynamicBindingPathList": [
         {"key": "truncateButtonColor"},
         {"key": "fontFamily"},
@@ -32,11 +32,11 @@
     "text": "Email:  {{Table1.selectedRow.email}}",
     "key": "q4q5l6mddn",
     "isDeprecated": false,
-    "rightColumn": 54,
+    "rightColumn": 64,
     "thumbnailSVG": "https://appcdn.appsmith.com/static/media/thumbnail.0c129b82c9b3e4cd4920563b289659ab.svg",
     "textAlign": "LEFT",
     "dynamicHeight": "AUTO_HEIGHT",
-    "widgetId": "s373h1cpi7",
+    "widgetId": "iqlhqj8ec6",
     "onCanvasUI": {
         "focusBGCSSVar": "--on-canvas-ui-widget-focus",
         "disableParentSelection": false,
@@ -49,7 +49,7 @@
     "fontStyle": "BOLD",
     "textColor": "#231F20",
     "version": 1,
-    "parentId": "27l3ycdna0",
+    "parentId": "5glabt97d3",
     "tags": [
         "Suggested",
         "Content"
@@ -58,11 +58,11 @@
     "renderMode": "CANVAS",
     "mobileTopRow": 28,
     "responsiveBehavior": "fill",
-    "originalTopRow": 17,
+    "originalTopRow": 21,
     "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
     "mobileLeftColumn": 26,
     "maxDynamicHeight": 9000,
-    "originalBottomRow": 21,
+    "originalBottomRow": 25,
     "fontSize": "1rem",
     "minDynamicHeight": 4
 }

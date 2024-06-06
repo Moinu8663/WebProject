@@ -1,0 +1,2 @@
+DELETE FROM public.User
+WHERE mobileno = '{{ appsmith.store.userProfile.mobileno }}';

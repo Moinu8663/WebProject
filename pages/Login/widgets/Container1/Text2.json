@@ -11,7 +11,7 @@
         {"key": "fontFamily"},
         {"key": "borderRadius"}
     ],
-    "text": "If you are not register here then click register button",
+    "text": "* If you are not register here then click register button",
     "disableLink": true,
     "textAlign": "CENTER",
     "dynamicHeight": "AUTO_HEIGHT",
@@ -22,7 +22,7 @@
         "selectionBGCSSVar": "--on-canvas-ui-widget-selection",
         "selectionColorCSSVar": "--on-canvas-ui-widget-focus"
     },
-    "isVisible": false,
+    "isVisible": true,
     "fontStyle": "",
     "textColor": "#b91c1c",
     "version": 1,

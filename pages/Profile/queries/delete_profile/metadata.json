@@ -2,7 +2,7 @@
   "pluginType": "DB",
   "pluginId": "postgres-plugin",
   "unpublishedAction": {
-    "name": "login",
+    "name": "delete_profile",
     "datasource": {
       "name": "Moinu_DB",
       "pluginId": "postgres-plugin",
@@ -13,12 +13,12 @@
       "policies": [],
       "userPermissions": []
     },
-    "pageId": "Login",
+    "pageId": "Profile",
     "actionConfiguration": {
       "timeoutInMillisecond": 10000,
       "paginationType": "NONE",
       "encodeParamsToggle": true,
-      "body": "SELECT * FROM public.User \nWHERE mobileno = '{{Input1.text}}' \n AND password = '{{Input2.text}}';\n",
+      "body": "DELETE FROM public.User\nWHERE mobileno = '{{ appsmith.store.userProfile.mobileno }}';\n",
       "selfReferencingDataPaths": [],
       "pluginSpecifiedTemplates": [
         {
@@ -36,16 +36,15 @@
     "invalids": [],
     "messages": [],
     "jsonPathKeys": [
-      "Input1.text",
-      "Input2.text"
+      " appsmith.store.userProfile.mobileno "
     ],
     "userSetOnLoad": false,
     "confirmBeforeExecute": false,
     "policies": [],
     "userPermissions": [],
-    "createdAt": "2024-06-05T05:04:36Z"
+    "createdAt": "2024-06-06T05:29:19Z"
   },
-  "id": "Login_login",
+  "id": "Profile_delete_profile",
   "deleted": false,
-  "gitSyncId": "665d91c36f04917e23b5f058_a2a0ba82-e208-4d95-b147-88394cf26f48"
+  "gitSyncId": "665d91c36f04917e23b5f058_b0e83e83-c15e-4404-b6e6-affed8b386f3"
 }

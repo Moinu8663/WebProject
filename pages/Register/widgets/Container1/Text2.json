@@ -22,7 +22,7 @@
         "selectionBGCSSVar": "--on-canvas-ui-widget-selection",
         "selectionColorCSSVar": "--on-canvas-ui-widget-focus"
     },
-    "isVisible": false,
+    "isVisible": true,
     "fontStyle": "",
     "textColor": "#ef4444",
     "version": 1,

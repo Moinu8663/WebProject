@@ -4,6 +4,7 @@
     "boxShadow": "none",
     "mobileBottomRow": 38,
     "widgetName": "Button3",
+    "onClick": "{{delete_profile.run().then(() => {\n  navigateTo('Register', {}, 'SAME_WINDOW');\n  showAlert('Profile Deleted Successfylly', 'success');\n});}}",
     "buttonColor": "{{appsmith.theme.colors.primaryColor}}",
     "displayName": "Button",
     "iconSVG": "https://appcdn.appsmith.com/static/media/icon.cb7371e9a48acf9db0f2f3ea0a714255.svg",
@@ -19,12 +20,13 @@
     "mobileRightColumn": 59,
     "animateLoading": true,
     "parentColumnSpace": 9.27392578125,
+    "dynamicTriggerPathList": [{"key": "onClick"}],
     "leftColumn": 43,
     "dynamicBindingPathList": [
         {"key": "buttonColor"},
         {"key": "borderRadius"}
     ],
-    "text": "Submit",
+    "text": "Delete Profile",
     "isDisabled": false,
     "key": "wh2dgwv3vk",
     "isDeprecated": false,
@@ -49,9 +51,11 @@
     "isLoading": false,
     "mobileTopRow": 34,
     "responsiveBehavior": "hug",
+    "originalTopRow": 34,
     "disabledWhenInvalid": false,
     "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
     "mobileLeftColumn": 43,
+    "originalBottomRow": 38,
     "buttonVariant": "PRIMARY",
     "placement": "CENTER"
 }
